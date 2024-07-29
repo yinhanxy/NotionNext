@@ -87,7 +87,8 @@ const CONFIG = {
   STARTER_PRICING_1_FEATURES: '所有的主题,免费更新,帮助手册', // 英文逗号隔开
   STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_1_BUTTON_URL:
-    'https://tangly1024.lemonsqueezy.com/checkout/buy/c1a38a65-362e-44c5-8065-733fee39eb54',
+    '',
+    // https://tangly1024.lemonsqueezy.com/checkout/buy/c1a38a65-362e-44c5-8065-733fee39eb54
 
   STARTER_PRICING_2_TAG: '推荐',
   STARTER_PRICING_2_TITLE: '基础版',
@@ -98,7 +99,7 @@ const CONFIG = {
   STARTER_PRICING_2_FEATURES: '包含入门版,项目源码,内部社群,技术咨询,SEO优化', // 英文逗号隔开
   STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_2_BUTTON_URL:
-    'https://tangly1024.lemonsqueezy.com/checkout/buy/590ad70a-c3b7-4caf-94ec-9ca27bde06d4',
+    '',
 
   STARTER_PRICING_3_TITLE: '高级版',
   STARTER_PRICING_3_PRICE: '59.9',
@@ -108,7 +109,7 @@ const CONFIG = {
   STARTER_PRICING_3_FEATURES: '包含基础版,功能定制开发', // 英文逗号隔开
   STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_3_BUTTON_URL:
-    'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
+    '',
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
@@ -300,14 +301,14 @@ const CONFIG = {
       TITLE: '关于我们',
       LINK_GROUP: [
         { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: '操作文档', URL: 'https://sports.geekwy.fun/' },
         {
           TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
+          URL: 'https://sports.geekwy.fun/'
         },
         {
           TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
+          URL: 'https://sports.geekwy.fun/'
         }
       ]
     },
@@ -315,33 +316,34 @@ const CONFIG = {
       TITLE: '功能特性',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          TITLE: '视频资料',
+          URL: 'https://sports.geekwy.fun/'
         },
         {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          TITLE: '健身指南',
+          URL: 'https://sports.geekwy.fun/'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
-      ]
-    },
-    {
-      TITLE: 'Notion写作',
-      LINK_GROUP: [
-        {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
+        { TITLE: '数据记录', URL: 'https://sports.geekwy.fun/' }
       ]
     }
+    // ,
+    // {
+    //   TITLE: 'Notion写作',
+    //   LINK_GROUP: [
+    //     {
+    //       TITLE: 'Notion开始写作',
+    //       URL: 'https://docs.tangly1024.com/article/start-to-write'
+    //     },
+    //     {
+    //       TITLE: '快捷键提升效率',
+    //       URL: 'https://docs.tangly1024.com/article/notion-short-key'
+    //     },
+    //     {
+    //       TITLE: '中国大陆使用Notion',
+    //       URL: 'https://docs.tangly1024.com/article/notion-faster'
+    //     }
+    //   ]
+    // }
   ],
 
   STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
